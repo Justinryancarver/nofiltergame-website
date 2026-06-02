@@ -11,7 +11,6 @@
   <title>No Filter — The Party Card Game</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    html, body { overflow-x: hidden; max-width: 100%; }
     body {
       background: linear-gradient(180deg, #0B0F1E 0%, #1C2438 100%);
       color: #FFFFFF;
@@ -69,19 +68,16 @@
       font-size: 13px;
       letter-spacing: 1px;
     }
-    .tiktok-wrapper {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 48px;
+    .video-wrapper {
       width: 100%;
-      max-width: 100%;
+      margin-bottom: 48px;
+      border-radius: 12px;
       overflow: hidden;
     }
-    .tiktok-wrapper blockquote,
-    .tiktok-wrapper iframe {
-      max-width: 100% !important;
-      min-width: 0 !important;
-      width: 100% !important;
+    .video-wrapper video {
+      width: 100%;
+      display: block;
+      border-radius: 12px;
     }
     .store-btn {
       background: #FFFFFF;
@@ -127,15 +123,8 @@
       <span class="badge">NO ADS</span>
     </div>
 
-    <div class="tiktok-wrapper">
-      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@nofilterpartycardgame1/video/7646825757955656990" data-video-id="7646825757955656990" style="max-width: 605px;min-width: 325px;">
-        <section>
-          <a target="_blank" title="@nofilterpartycardgame1" href="https://www.tiktok.com/@nofilterpartycardgame1?refer=embed">@nofilterpartycardgame1</a>
-          the prompt was &#34;what&#39;s my type, apparently?&#34; and someone played &#34;the friend who knows a guy&#34; 💀 this party card game has zero filter 🔥 comment and I&#39;ll send a free code, on Android https:&#47;&#47;play.google.com&#47;store&#47;apps&#47;details?id=com.nofilter.cardgame&#38;pcampaignid=web_share  #partygames #cardgames #gamenight #cardsagainsthumanity
-          <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a>
-          <a target="_blank" title="♬ original sound - nofilterpartycardgame1 - No Filter · Party Card Game" href="https://www.tiktok.com/music/original-sound-nofilterpartycardgame1-7646825804285889310?refer=embed">♬ original sound - nofilterpartycardgame1 - No Filter · Party Card Game</a>
-        </section>
-      </blockquote>
+    <div class="video-wrapper">
+      <video src="NoFilterAdVideoFinal.mp4" autoplay muted loop playsinline controls></video>
     </div>
 
     <a
@@ -154,6 +143,6 @@
       <p style="margin-top: 24px; color: #7C8499;">© No Filter Game</p>
     </footer>
   </main>
-  <script async src="https://www.tiktok.com/embed.js"></script>
+
 </body>
 </html>
