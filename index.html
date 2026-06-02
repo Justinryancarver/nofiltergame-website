@@ -22,6 +22,7 @@
       justify-content: center;
       padding: 24px;
       text-align: center;
+      overflow-x: hidden;
     }
     .container { max-width: 600px; }
     .logo {
@@ -72,6 +73,15 @@
       display: flex;
       justify-content: center;
       margin-bottom: 48px;
+      width: 100%;
+      max-width: 100%;
+      overflow: hidden;
+    }
+    .tiktok-wrapper blockquote,
+    .tiktok-wrapper iframe {
+      max-width: 100% !important;
+      min-width: 0 !important;
+      width: 100% !important;
     }
     .store-btn {
       background: #FFFFFF;
